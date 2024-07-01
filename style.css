@@ -134,3 +134,22 @@ dispositivos__lista{
   color: var(--branco-principal);
   margin-left: 1em;
 }
+
+.rodape__texto[
+  margin: 1em 0;
+  color: var(--cinza-secundario);
+  font-size: 14,px;
+]
+
+.lista__link a:hover[
+  color: var(--botao-azul);
+]
+
+.lista__link :active[
+  color:purple;
+]
+
+.container__botao:hover[
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
+]
